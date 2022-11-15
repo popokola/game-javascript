@@ -98,7 +98,7 @@ charactersMap.forEach((row, i) => {
             hold: 60
           },
           scale: 3,
-          dialogue: ['My bones hurt.']
+          dialogue: [dialogues.oldMan.dialogues]
         })
       )
     }
@@ -464,7 +464,7 @@ window.addEventListener('keydown', (e) => {
 
 window.addEventListener('keyup', (e) => {
   switch (e.key) {
-    case 'w':
+    case 'w' :
       keys.w.pressed = false
       break
     case 'a':
@@ -486,3 +486,6 @@ addEventListener('click', () => {
     clicked = true
   }
 })
+
+
+
